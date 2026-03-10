@@ -1,0 +1,4 @@
+module test-text-py (test)
+
+import text.test (test)
+import text-py
