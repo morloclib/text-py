@@ -3,6 +3,7 @@ module text-py (*)
 import text
 import root-py
 
+%inline
 source Py from "text.py"
     ( "morloc_split" as split
     , "morloc_lines" as lines
